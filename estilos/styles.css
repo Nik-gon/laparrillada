@@ -1,0 +1,693 @@
+*{margin:0;padding: 0;}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+.bodyNacho{
+    background-image: url(../img/leña3.jpg);
+}
+.bodyIndex{
+    background-image: url(../img/hamburguesa_2.jpg);
+    
+}
+.bodyContacto{
+    background-image: url(../img/papas.jpg);
+}
+.bodyNico{
+    background-color: #000;
+}
+/*HEADER------------------------*/
+
+
+header {
+    width: 100vw;
+    height: 10%;
+    background-color: #322F2F;
+    display:flex ;
+    flex-direction: row;
+    z-index: 4;
+  }
+  
+  nav.links {
+    /*margin-right: 200px;
+     margin-top: 150px;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  li {
+    font-size: 20px;
+    display: table-cell;
+    padding: 20px 60px;
+    width: 100%;
+  }
+  .linkTitulo{
+      text-decoration: none;
+      transition: 500ms;
+      padding: 15%;
+  }
+  .linkTitulo:hover{
+      font-size: 20px;
+      transition: 500ms;
+  }
+  a.linkHeader {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  li:hover a {
+    color:#C83E3E;
+  }
+  
+  img.imagenLogo {
+    width: 100%;
+    height: 20vh;
+    transition: all 500ms ease;
+  }
+  
+  img.imagenLogo:hover {
+    transform: scale(1.2);
+  }
+  
+  nav.navSweetJazz {
+    background-color: none;
+  }
+  .buttonResponsive{
+      margin-left: 30px;
+  }
+  button.buttonSweetJazz {
+    color: cornsilk  !important;
+    border-color: #fff !important;
+  }
+
+
+/*header{
+    position: fixed;
+    width: 100vw;
+    height: 10%;
+    background-color: #322F2F;
+    display:flex ;
+    flex-direction: row;
+    z-index: 4;
+}
+.divHeader{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1{
+    align-self: center;
+}
+.navLinks{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divLinks{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.linksHeader{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 250ms;
+}
+.linksHeader:hover{
+    color:#C83E3E ;
+    transition: 250ms;
+}*/
+/*-------------------------------------------------------------------*/
+.main{
+    /*background-color: #C83E3E;*/
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+h2.tituloindex{
+    margin-top: 5%;
+    font-size: 50px ;
+    font-style: italic;
+}
+.sectionFondo{
+    z-index: 2;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    height: auto;
+    width: 80vw;
+    background-color: #382626;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    color: bisque;
+
+}
+section.contenido{
+    margin-bottom: 5%;
+}
+.sectionImg{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+
+}
+.figureImg{
+    height: 60vh;
+    width: 30vw;
+    overflow:hidden ;
+}
+.imgIndex{
+    height: 60vh;
+    width: 30vw;
+    transition: 500ms;
+
+}
+.imgIndex:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
+.divMain{
+    padding: 3%;
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.sectionTextoIndex{
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+.pIndex{
+    margin-left: 5%;
+    margin-right: 10%;
+    text-align: center;
+}
+.sectionMapa{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+iframe{
+    margin-top: 5%;
+    width: 30vw;
+    height: 30vh;
+    transition: 500ms;
+}
+iframe:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+}
+/*------------------------------------------------------------------------>*/
+footer{
+    z-index: 4;
+    background-color: #322F2F;
+    height: 25%;
+    width: 100vw;
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+section.sectionFooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    color: white;
+}
+.divRow{
+    margin: 3%;
+}
+.divFooter{
+    color: white;
+    width: auto;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2.titulosFooter{
+    margin-bottom: 5%;
+}
+div.divRedes{
+    margin-right: 10%;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+a.iconLink{
+    padding: 20%;
+    text-decoration: none;
+    color:white ;
+}
+i.iconos{
+    transition: all 500ms ease;
+    padding: 5%;
+}
+i.iconos:hover{
+    color: #C83E3E;
+    transform: scale(1.2);
+}
+.linkFooter{
+    text-decoration: none;
+    color: #C83E3E;
+}
+.linkFooter:hover{
+    color: antiquewhite;
+}
+/*CONTACTOS------------------------------------------------------------------->*/
+
+.contenedor{
+    margin: 5% 0%;
+}
+.contenedor .form .formHeader .formTittle{
+    border: none;
+    font-weight: normal;
+    color:antiquewhite ;
+    text-align: center;
+    padding: 14px 0;
+}
+span{
+    color: antiquewhite;
+}
+.contenedor .form {
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+
+}
+.formLabel{
+    display: block;
+    color:antiquewhite;
+}
+.btn-form{
+    width: 100%;
+    outline: none;
+    background:#C83E3E;
+    font-size: 16px;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.btn-form:hover{
+    background:#322F2F;
+    color: #fff;
+}
+.contenedor .form .textareaForm{
+    background: rgba(44, 12, 12, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px black solid;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: antiquewhite;
+    font-family: Roboto;
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+input.inputForm{
+    background: rgba(44, 12, 12, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: antiquewhite;
+}
+.select{
+    background: rgba(44, 12, 12, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    width: 109%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: antiquewhite;
+}
+.sede{
+    color: antiquewhite;
+}
+/*PAGINA NICO----------------------------------------------------------------------->*/
+.mainNico{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+}
+.sectionImgNico1{
+    z-index: 2;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    margin-left:2% ;
+    margin-right: 2%;
+    height: 300vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.figureNico{
+    height: auto;
+    width: 10vw;
+    overflow: hidden;
+}
+.imgNico{
+    height: auto;
+    width: 100vw;
+}
+.sectionFondoNico{
+    z-index: 2;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    height: auto;
+    width: 70vw;
+    background-color: rgba(150, 73, 10, 0.388);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+.sectionTituloPalermo{
+    width:70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+.h2Palermo{
+    margin-top: 15%;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+.linksNico{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aNico{
+    text-decoration: none;
+    color: antiquewhite ;
+}
+.aNico:hover{
+    color: burlywood;
+}
+.divspaces{
+    height: 5%;
+}
+div.nosotrosNico{
+    margin-top: 20%;
+    width: 70vw;
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+    align-content:space-around;
+
+}
+.h2Nos{
+    margin-left: 3%;
+    color: antiquewhite;
+
+}
+.pNosotros{
+    color: antiquewhite;
+    margin:5% 5% 0% 5%;
+    text-align: left;
+}
+.divImagenesNos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgNos{
+    width: 30%;
+    height: 50%;
+    transition: 250ms;
+}
+.imgNos:hover{
+    transform: scale(1.1);
+    transition: 250ms;
+}
+.carouselNico{
+    margin-top: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+div.restauranteNico{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+}
+.h2rest{
+    margin-left: 3%;
+    color: antiquewhite;
+    text-align: left;
+}
+.divImagenesRes{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+}
+
+.imgRes{
+    width: 120%;
+    height: 60%;
+}
+/*PAGINA NACHO---------------------------------------------------------------------------------->*/
+.mainNacho{
+    /*background-color: #c83e3e;*/
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    
+}
+.sectionNacho{
+    z-index: 2;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    height: auto;
+    width: 80vw;
+    background-color: #3F301D;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    color:bisque;
+    
+
+}
+.sectiontituloNacho{
+    margin-top: 2%;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.tituloNacho{
+    margin-top: 3%;
+    font-size: 50px;
+    font-style: italic;
+}
+.contimg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.divimgNacho{
+    margin: 1%;
+    margin-top: 2%;
+    width: 30vw;
+    height: 30vh;
+}
+.sectionsomosNacho{
+    margin-top: 5%;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+
+
+.sectionrestauranteNacho{
+    margin-left: 18%;
+    margin-top: 0%;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.sectionmenuNacho{
+    
+    
+    width: 70vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carouselNacho1{
+    height: 50vh;
+    width: 60vw;
+}
+.divimgNachoC{
+    height: 50vh;
+    width: 80vw;
+}
+.carouselNacho2{
+    height: 30vh;
+    width: 50vw;
+}
+.divimgNachoC2{
+    height: 40vh;
+    width: 50vw;
+}
+.sectionFormNacho{
+    margin-top: 10%;
+    height: auto;
+}
+/*STYLES DEL SCRIPT MENU---------------------------------------------->*/
+.sectionMenu{
+    height: 40%;
+    width: 50%;
+    margin-bottom: 3%;
+    border: solid 5px black;
+    border-radius: 5%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.tituloMenu{
+    text-decoration: underline;
+    color: brown;
+}
+.subtitulo{
+    color: brown;
+    text-decoration: none;
+    align-self: flex-start;
+}
+.divmenu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+.divPP{
+    height: auto;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.form{
+    padding: 5%;
+}
+.inputA{
+    margin-top: 5%;
+}
+.emp{
+    margin-left: 9%;
+}
+.pase{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:baseline;
+}
+.formMenu{
+    color: black !important;
+}
+.linkMenu{
+    color: #C83E3E;
+    text-decoration: none;
+
+}
+.linkMenu:hover{
+    color: black;
+}
